@@ -37,24 +37,6 @@ export const pagesComponents = {
   "v-99bfd332": defineAsyncComponent(() => import(/* webpackChunkName: "v-99bfd332" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/Web&HTTP/notes/HTTP.html.vue")),
   // path: /Web&HTTP/notes/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80.html
   "v-7b7cd6bc": defineAsyncComponent(() => import(/* webpackChunkName: "v-7b7cd6bc" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/Web&HTTP/notes/前端基础.html.vue")),
-  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/Dubbo.html
-  "v-9236f9d2": defineAsyncComponent(() => import(/* webpackChunkName: "v-9236f9d2" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/Dubbo.html.vue")),
-  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/ELK.html
-  "v-2ad6bf31": defineAsyncComponent(() => import(/* webpackChunkName: "v-2ad6bf31" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/ELK.html.vue")),
-  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/Nacos.html
-  "v-6a60583e": defineAsyncComponent(() => import(/* webpackChunkName: "v-6a60583e" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/Nacos.html.vue")),
-  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/Quartz.html
-  "v-26101d22": defineAsyncComponent(() => import(/* webpackChunkName: "v-26101d22" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/Quartz.html.vue")),
-  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/Seata.html
-  "v-09534e4e": defineAsyncComponent(() => import(/* webpackChunkName: "v-09534e4e" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/Seata.html.vue")),
-  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/Sentinel.html
-  "v-40f07f8e": defineAsyncComponent(() => import(/* webpackChunkName: "v-40f07f8e" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/Sentinel.html.vue")),
-  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/SpringGateway%E7%BD%91%E5%85%B3.html
-  "v-eb409a3c": defineAsyncComponent(() => import(/* webpackChunkName: "v-eb409a3c" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/SpringGateway网关.html.vue")),
-  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%A6%82%E5%BF%B5.html
-  "v-68bcb99c": defineAsyncComponent(() => import(/* webpackChunkName: "v-68bcb99c" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/微服务概念.html.vue")),
-  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97.html
-  "v-173c71b1": defineAsyncComponent(() => import(/* webpackChunkName: "v-173c71b1" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/消息队列.html.vue")),
   // path: /%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/notes/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.html
   "v-706f62f0": defineAsyncComponent(() => import(/* webpackChunkName: "v-706f62f0" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/数据结构与算法/notes/数据结构.html.vue")),
   // path: /%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/notes/%E7%AE%97%E6%B3%95.html
@@ -73,6 +55,24 @@ export const pagesComponents = {
   "v-152b6dd8": defineAsyncComponent(() => import(/* webpackChunkName: "v-152b6dd8" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/其他/notes/各类工具、开发文档、常用下载.html.vue")),
   // path: /%E5%85%B6%E4%BB%96/notes/%E9%9D%A2%E8%AF%95%E9%A2%98.html
   "v-5fb8e9a1": defineAsyncComponent(() => import(/* webpackChunkName: "v-5fb8e9a1" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/其他/notes/面试题.html.vue")),
+  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/Dubbo.html
+  "v-9236f9d2": defineAsyncComponent(() => import(/* webpackChunkName: "v-9236f9d2" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/Dubbo.html.vue")),
+  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/ELK.html
+  "v-2ad6bf31": defineAsyncComponent(() => import(/* webpackChunkName: "v-2ad6bf31" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/ELK.html.vue")),
+  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/Nacos.html
+  "v-6a60583e": defineAsyncComponent(() => import(/* webpackChunkName: "v-6a60583e" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/Nacos.html.vue")),
+  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/Quartz.html
+  "v-26101d22": defineAsyncComponent(() => import(/* webpackChunkName: "v-26101d22" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/Quartz.html.vue")),
+  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/Seata.html
+  "v-09534e4e": defineAsyncComponent(() => import(/* webpackChunkName: "v-09534e4e" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/Seata.html.vue")),
+  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/Sentinel.html
+  "v-40f07f8e": defineAsyncComponent(() => import(/* webpackChunkName: "v-40f07f8e" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/Sentinel.html.vue")),
+  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/SpringGateway%E7%BD%91%E5%85%B3.html
+  "v-eb409a3c": defineAsyncComponent(() => import(/* webpackChunkName: "v-eb409a3c" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/SpringGateway网关.html.vue")),
+  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%A6%82%E5%BF%B5.html
+  "v-68bcb99c": defineAsyncComponent(() => import(/* webpackChunkName: "v-68bcb99c" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/微服务概念.html.vue")),
+  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97.html
+  "v-173c71b1": defineAsyncComponent(() => import(/* webpackChunkName: "v-173c71b1" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/消息队列.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/404.html.vue")),
 }

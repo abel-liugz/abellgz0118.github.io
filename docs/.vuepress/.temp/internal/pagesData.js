@@ -35,24 +35,6 @@ export const pagesData = {
   "v-99bfd332": () => import(/* webpackChunkName: "v-99bfd332" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/Web&HTTP/notes/HTTP.html.js").then(({ data }) => data),
   // path: /Web&HTTP/notes/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80.html
   "v-7b7cd6bc": () => import(/* webpackChunkName: "v-7b7cd6bc" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/Web&HTTP/notes/前端基础.html.js").then(({ data }) => data),
-  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/Dubbo.html
-  "v-9236f9d2": () => import(/* webpackChunkName: "v-9236f9d2" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/Dubbo.html.js").then(({ data }) => data),
-  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/ELK.html
-  "v-2ad6bf31": () => import(/* webpackChunkName: "v-2ad6bf31" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/ELK.html.js").then(({ data }) => data),
-  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/Nacos.html
-  "v-6a60583e": () => import(/* webpackChunkName: "v-6a60583e" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/Nacos.html.js").then(({ data }) => data),
-  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/Quartz.html
-  "v-26101d22": () => import(/* webpackChunkName: "v-26101d22" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/Quartz.html.js").then(({ data }) => data),
-  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/Seata.html
-  "v-09534e4e": () => import(/* webpackChunkName: "v-09534e4e" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/Seata.html.js").then(({ data }) => data),
-  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/Sentinel.html
-  "v-40f07f8e": () => import(/* webpackChunkName: "v-40f07f8e" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/Sentinel.html.js").then(({ data }) => data),
-  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/SpringGateway%E7%BD%91%E5%85%B3.html
-  "v-eb409a3c": () => import(/* webpackChunkName: "v-eb409a3c" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/SpringGateway网关.html.js").then(({ data }) => data),
-  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%A6%82%E5%BF%B5.html
-  "v-68bcb99c": () => import(/* webpackChunkName: "v-68bcb99c" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/微服务概念.html.js").then(({ data }) => data),
-  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97.html
-  "v-173c71b1": () => import(/* webpackChunkName: "v-173c71b1" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/消息队列.html.js").then(({ data }) => data),
   // path: /%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/notes/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.html
   "v-706f62f0": () => import(/* webpackChunkName: "v-706f62f0" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/数据结构与算法/notes/数据结构.html.js").then(({ data }) => data),
   // path: /%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/notes/%E7%AE%97%E6%B3%95.html
@@ -71,6 +53,24 @@ export const pagesData = {
   "v-152b6dd8": () => import(/* webpackChunkName: "v-152b6dd8" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/其他/notes/各类工具、开发文档、常用下载.html.js").then(({ data }) => data),
   // path: /%E5%85%B6%E4%BB%96/notes/%E9%9D%A2%E8%AF%95%E9%A2%98.html
   "v-5fb8e9a1": () => import(/* webpackChunkName: "v-5fb8e9a1" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/其他/notes/面试题.html.js").then(({ data }) => data),
+  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/Dubbo.html
+  "v-9236f9d2": () => import(/* webpackChunkName: "v-9236f9d2" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/Dubbo.html.js").then(({ data }) => data),
+  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/ELK.html
+  "v-2ad6bf31": () => import(/* webpackChunkName: "v-2ad6bf31" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/ELK.html.js").then(({ data }) => data),
+  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/Nacos.html
+  "v-6a60583e": () => import(/* webpackChunkName: "v-6a60583e" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/Nacos.html.js").then(({ data }) => data),
+  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/Quartz.html
+  "v-26101d22": () => import(/* webpackChunkName: "v-26101d22" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/Quartz.html.js").then(({ data }) => data),
+  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/Seata.html
+  "v-09534e4e": () => import(/* webpackChunkName: "v-09534e4e" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/Seata.html.js").then(({ data }) => data),
+  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/Sentinel.html
+  "v-40f07f8e": () => import(/* webpackChunkName: "v-40f07f8e" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/Sentinel.html.js").then(({ data }) => data),
+  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/SpringGateway%E7%BD%91%E5%85%B3.html
+  "v-eb409a3c": () => import(/* webpackChunkName: "v-eb409a3c" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/SpringGateway网关.html.js").then(({ data }) => data),
+  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%A6%82%E5%BF%B5.html
+  "v-68bcb99c": () => import(/* webpackChunkName: "v-68bcb99c" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/微服务概念.html.js").then(({ data }) => data),
+  // path: /%E5%BE%AE%E6%9C%8D%E5%8A%A1/notes/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97.html
+  "v-173c71b1": () => import(/* webpackChunkName: "v-173c71b1" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/微服务/notes/消息队列.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"/Users/abel/Documents/IdeaProjects/myweb/docs/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
 }
