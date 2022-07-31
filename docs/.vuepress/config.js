@@ -1,5 +1,6 @@
 const {defaultTheme} = require('@vuepress/theme-default')
 const {searchPlugin} = require('@vuepress/plugin-search')
+
 module.exports = {
     title: 'Abel\'s Web',
     description: 'My tech blog',
@@ -39,7 +40,7 @@ module.exports = {
                 }
             },
             isSearchable: (page) => page.path !== '/'
-        })
+        }),
     ]
 }
 
