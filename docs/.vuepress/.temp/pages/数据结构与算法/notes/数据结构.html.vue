@@ -342,4 +342,61 @@ AVL树通过旋转（左旋、右旋）来保证二叉排序树的平衡状态�
 </ul>
 </li>
 </ul>
+<h2 id="队列" tabindex="-1"><a class="header-anchor" href="#队列" aria-hidden="true">#</a> 队列</h2>
+<h3 id="queue队列-先进先出" tabindex="-1"><a class="header-anchor" href="#queue队列-先进先出" aria-hidden="true">#</a> Queue队列：先进先出</h3>
+<p><img src="/images/queue.png" alt="queue.png"></p>
+<ul>
+<li>入队和出队的API方法
+<ul>
+<li>boolean offer(E) 入队操作，队列满返回false</li>
+<li>E poll() 出队操作，队列空返回null</li>
+<li>E peek() 获取但不从队列中移除元素，队列空返回null</li>
+</ul>
+</li>
+</ul>
+<h3 id="deque双端队列-两端均可以入队和出队" tabindex="-1"><a class="header-anchor" href="#deque双端队列-两端均可以入队和出队" aria-hidden="true">#</a> Deque双端队列：两端均可以入队和出队</h3>
+<p><img src="/images/Deque.png" alt="Deque.png"></p>
+<ul>
+<li>API方法
+<ul>
+<li>入队：offer系列方法
+<ul>
+<li>boolean offer(E) 队尾入队</li>
+<li>boolean offerFirst(E) 队首入队</li>
+<li>boolean offerLast(E) 队尾入队</li>
+</ul>
+</li>
+<li>出队：poll系列方法
+<ul>
+<li>E poll() 队首出队元素</li>
+<li>pollFirst() 队首出队元素</li>
+<li>pollLast() 队尾出队元素</li>
+</ul>
+<div class="custom-container warning"><p class="custom-container-title">注意</p>
+<p>以上三个方法，当队列空时，均返回null</p>
+</div>
+</li>
+<li>检查：peek系列方法
+<ul>
+<li>E peek() 队首检查元素</li>
+<li>E peekFirst() 队首检查元素</li>
+<li>E peekLast() 队尾检查元素<div class="custom-container warning"><p class="custom-container-title">注意</p>
+<p>以上三个方法，当队列空时，均返回null</p>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="栈-基于双端队列-可以发展出栈结构-其特点为后进先出" tabindex="-1"><a class="header-anchor" href="#栈-基于双端队列-可以发展出栈结构-其特点为后进先出" aria-hidden="true">#</a> 栈：基于双端队列，可以发展出栈结构，其特点为后进先出</h3>
+<p><img src="/images/栈.png" alt="栈.png"></p>
+<ul>
+<li>API方法
+<ul>
+<li>push(E) 压栈</li>
+<li>E pop() 弹出元素</li>
+</ul>
+</li>
+</ul>
 </div></template>

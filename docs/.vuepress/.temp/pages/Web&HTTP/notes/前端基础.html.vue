@@ -632,7 +632,98 @@
 </ul>
 </li>
 </ul>
-<h1 id="vue-cli" tabindex="-1"><a class="header-anchor" href="#vue-cli" aria-hidden="true">#</a> Vue CLI</h1>
+<h2 id="jquery" tabindex="-1"><a class="header-anchor" href="#jquery" aria-hidden="true">#</a> JQuery</h2>
+<h3 id="什么是jquery" tabindex="-1"><a class="header-anchor" href="#什么是jquery" aria-hidden="true">#</a> 什么是JQuery</h3>
+<p>JQuery是一个队js进行封装的资源库</p>
+<ul>
+<li>页面中使用JQuery：第一步导入JQuery的资源库</li>
+</ul>
+<div class="language-html ext-html line-numbers-mode"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/javascript<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>jquery.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3 id="选择器-1" tabindex="-1"><a class="header-anchor" href="#选择器-1" aria-hidden="true">#</a> 选择器</h3>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code>语法： <span class="token function">$</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+基本的选择器：
+    <span class="token function">id选择器：$</span><span class="token punctuation">(</span><span class="token string">'#id'</span><span class="token punctuation">)</span>
+    <span class="token function">类选择器：$</span><span class="token punctuation">(</span><span class="token string">'.classname'</span><span class="token punctuation">)</span> <span class="token operator">-</span> 数组
+    <span class="token function">标签选择器：$</span><span class="token punctuation">(</span><span class="token string">'tagname'</span><span class="token punctuation">)</span> <span class="token operator">-</span> 数组
+    获取同级元素： <span class="token function">siblings</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    除了以上选择器，还有很多，到文档中查看
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="函数" tabindex="-1"><a class="header-anchor" href="#函数" aria-hidden="true">#</a> 函数</h3>
+<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code>隐藏和显示： <span class="token operator">-</span> 高频
+<span class="token function">hide</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token function">show</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token function">toggle</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span>让dom元素进行隐藏和显示的切换
+
+淡入和淡出：
+    <span class="token function">fadeIn</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token function">fadeOut</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token function">fadeToggle</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span>淡入淡出切换
+
+滑入滑出：
+    <span class="token function">slideDown</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token function">slideUp</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token function">slideToggle</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+
+获取： <span class="token operator">--</span> 重要
+<span class="token function">text</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span>获取标签中间的文本内容
+<span class="token function">html</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span>获取标签中间的内容（包括dom元素）
+    <span class="token function">val</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span>获取dom元素value属性的值  <span class="token operator">--</span> 重要  <span class="token operator">&lt;</span>input type<span class="token operator">=</span><span class="token string">"text"</span> value<span class="token operator">=</span><span class="token string">"xx"</span><span class="token operator">></span>
+
+        设置值： <span class="token operator">--</span> 重要
+<span class="token function">text</span><span class="token punctuation">(</span><span class="token string">"hello"</span><span class="token punctuation">)</span> <span class="token operator">--</span> 为标签中间进行值设置
+<span class="token function">html</span><span class="token punctuation">(</span><span class="token string">"&lt;b>hello&lt;/b>"</span><span class="token punctuation">)</span> <span class="token operator">--</span> 为标签中间进行带dom元素赋值
+<span class="token function">val</span><span class="token punctuation">(</span><span class="token string">"..."</span><span class="token punctuation">)</span> <span class="token operator">:</span>为dom元素的value属性赋值
+
+清空元素：
+    <span class="token function">remove</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span>删除选中元素及其子元素
+<span class="token function">empty</span><span class="token punctuation">(</span><span class="token punctuation">)</span>：清空选中元素内的所有子元素
+
+获取和设置样式属性：
+   获取：
+    <span class="token function">css</span><span class="token punctuation">(</span><span class="token string">"propertyname"</span><span class="token punctuation">)</span><span class="token operator">--</span><span class="token function">eg：css</span><span class="token punctuation">(</span><span class="token string">"background-color"</span><span class="token punctuation">)</span>
+设置一个样式属性值：
+    <span class="token function">css</span><span class="token punctuation">(</span><span class="token string">"background-color"</span><span class="token punctuation">,</span><span class="token string">"red"</span><span class="token punctuation">)</span>
+设置多个样式属性值
+<span class="token function">css</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token string-property property">"background-color"</span><span class="token operator">:</span><span class="token string">"red"</span><span class="token punctuation">,</span><span class="token string-property property">"size"</span><span class="token operator">:</span>19px<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+获取父级元素：
+    <span class="token function">parent</span><span class="token punctuation">(</span><span class="token punctuation">)</span>：获取直接父级元素
+<span class="token function">parents</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span>获取所有祖先元素，直到html
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="ajax-完成异步数据交互" tabindex="-1"><a class="header-anchor" href="#ajax-完成异步数据交互" aria-hidden="true">#</a> AJAX：完成异步数据交互</h2>
+<ul>
+<li>发送get请求<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">let</span> url <span class="token operator">=</span> <span class="token string">'/user/regist?name=tom&amp;&amp;pwd=123'</span><span class="token punctuation">;</span>
+  $<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span>url<span class="token punctuation">,</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">data</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      <span class="token function">alter</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span> 
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code>$<span class="token punctuation">.</span><span class="token function">ajax</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token literal-property property">url</span><span class="token operator">:</span><span class="token string">"/user/add"</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">type</span><span class="token operator">:</span><span class="token constant">GET</span><span class="token punctuation">,</span>
+  <span class="token literal-property property">data</span><span class="token operator">:</span><span class="token punctuation">{</span>
+      <span class="token string-property property">"username"</span><span class="token operator">:</span><span class="token string">"tom"</span><span class="token punctuation">,</span>
+      <span class="token string-property property">"pwd"</span><span class="token operator">:</span><span class="token string">"123"</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">success</span><span class="token operator">:</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">data</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      <span class="token function">alert</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">error</span><span class="token operator">:</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">data</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      <span class="token function">alert</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>发送post请求<div class="language-javascript ext-js line-numbers-mode"><pre v-pre class="language-javascript"><code><span class="token keyword">let</span> url <span class="token operator">=</span> <span class="token string">"/user/login"</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> param <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token string-property property">"username"</span><span class="token operator">:</span>name<span class="token punctuation">,</span>
+  <span class="token string-property property">"pwd"</span><span class="token operator">:</span><span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'#pwd'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">val</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span> 
+$<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span>url<span class="token punctuation">,</span>param<span class="token punctuation">,</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">data</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token function">alter</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+</ul>
+<div class="custom-container warning"><p class="custom-container-title">注意点</p>
+<p>$.get()和$.post()底层均使用$.ajax()完成</p>
+</div>
+<h2 id="vue-cli" tabindex="-1"><a class="header-anchor" href="#vue-cli" aria-hidden="true">#</a> Vue CLI</h2>
 <h3 id="关于vue" tabindex="-1"><a class="header-anchor" href="#关于vue" aria-hidden="true">#</a> 关于VUE</h3>
 <ul>
 <li>
