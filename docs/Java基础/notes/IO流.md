@@ -2,7 +2,7 @@
 title: IO流
 ---
 
-![io总结.png](http://abelliu098.oss-cn-hongkong-internal.aliyuncs.com/images/io总结.png)
+![io总结.png](/images/io总结.png)
 
 - java io可以额让我们用标准的读写操作来完成对不同设备的读写数据工作
 - java将IO按照方向划分为输入与输出，参照点是我们写的程序

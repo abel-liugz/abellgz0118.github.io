@@ -1,4 +1,4 @@
-<template><div><p><img src="http://abelliu098.oss-cn-hongkong-internal.aliyuncs.com/images/io总结.png" alt="io总结.png"></p>
+<template><div><p><img src="/images/io总结.png" alt="io总结.png"></p>
 <ul>
 <li>java io可以额让我们用标准的读写操作来完成对不同设备的读写数据工作</li>
 <li>java将IO按照方向划分为输入与输出，参照点是我们写的程序</li>

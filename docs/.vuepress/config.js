@@ -24,7 +24,7 @@ module.exports = {
         {
             logo: '/images/JAVA.png',
             logoDark: '/images/java-2.png',
-            repo: 'https://gitee.com/liu-guanzheng/myweb.git',
+            repo: 'https://gitee.com/abel-lgz/abel-lgz.git',
             navbar: require('./navbar'),
             sidebar: 'auto',
             collapsible: true,
