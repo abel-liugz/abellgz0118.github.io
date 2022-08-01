@@ -1,242 +1,5 @@
 export const searchIndex = [
   {
-    "title": "HTTP",
-    "headers": [
-      {
-        "level": 2,
-        "title": "常见HTTP响应码",
-        "slug": "常见http响应码",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "会话管理",
-        "slug": "会话管理",
-        "children": []
-      }
-    ],
-    "path": "/Web&HTTP/notes/HTTP.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "前端基础",
-    "headers": [
-      {
-        "level": 2,
-        "title": "HTML",
-        "slug": "html",
-        "children": [
-          {
-            "level": 3,
-            "title": "文本相关标签",
-            "slug": "文本相关标签",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "列表标签",
-            "slug": "列表标签",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "图片标签 img",
-            "slug": "图片标签-img",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超链接 a",
-            "slug": "超链接-a",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "表格 table",
-            "slug": "表格-table",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "表单 form",
-            "slug": "表单-form",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "分区标签",
-            "slug": "分区标签",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "CSS 层叠样式表",
-        "slug": "css-层叠样式表",
-        "children": [
-          {
-            "level": 3,
-            "title": "CSS的三大特性",
-            "slug": "css的三大特性",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "如何在HTML页面中添加CSS样式代码",
-            "slug": "如何在html页面中添加css样式代码",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "选择器",
-            "slug": "选择器",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "颜色赋值",
-            "slug": "颜色赋值",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "背景图片",
-            "slug": "背景图片",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "文本和字体相关样式",
-            "slug": "文本和字体相关样式",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "元素的显示方式display",
-            "slug": "元素的显示方式display",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "盒子模型",
-            "slug": "盒子模型",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "元素的定位方式",
-            "slug": "元素的定位方式",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "JavaScript",
-        "slug": "javascript",
-        "children": [
-          {
-            "level": 3,
-            "title": "如何在HTML页面中添加JS语言",
-            "slug": "如何在html页面中添加js语言",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "变量",
-            "slug": "变量",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "数据类型",
-            "slug": "数据类型",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "运算符",
-            "slug": "运算符",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "各种语句",
-            "slug": "各种语句",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "方法",
-            "slug": "方法",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "JavaScript对象分类",
-            "slug": "javascript对象分类",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "JQuery",
-        "slug": "jquery",
-        "children": [
-          {
-            "level": 3,
-            "title": "什么是JQuery",
-            "slug": "什么是jquery",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "选择器",
-            "slug": "选择器-1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "函数",
-            "slug": "函数",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "AJAX：完成异步数据交互",
-        "slug": "ajax-完成异步数据交互",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Vue CLI",
-        "slug": "vue-cli",
-        "children": [
-          {
-            "level": 3,
-            "title": "关于VUE",
-            "slug": "关于vue",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "工程结构",
-            "slug": "工程结构",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/Web&HTTP/notes/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "IO流",
     "headers": [
       {
@@ -1224,6 +987,243 @@ export const searchIndex = [
       }
     ],
     "path": "/SSM/notes/%E5%9F%BA%E4%BA%8EMyBatis%E7%9A%84%E5%88%86%E9%A1%B5%E6%9F%A5%E8%AF%A2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "HTTP",
+    "headers": [
+      {
+        "level": 2,
+        "title": "常见HTTP响应码",
+        "slug": "常见http响应码",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "会话管理",
+        "slug": "会话管理",
+        "children": []
+      }
+    ],
+    "path": "/Web&HTTP/notes/HTTP.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "前端基础",
+    "headers": [
+      {
+        "level": 2,
+        "title": "HTML",
+        "slug": "html",
+        "children": [
+          {
+            "level": 3,
+            "title": "文本相关标签",
+            "slug": "文本相关标签",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "列表标签",
+            "slug": "列表标签",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "图片标签 img",
+            "slug": "图片标签-img",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超链接 a",
+            "slug": "超链接-a",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "表格 table",
+            "slug": "表格-table",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "表单 form",
+            "slug": "表单-form",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "分区标签",
+            "slug": "分区标签",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "CSS 层叠样式表",
+        "slug": "css-层叠样式表",
+        "children": [
+          {
+            "level": 3,
+            "title": "CSS的三大特性",
+            "slug": "css的三大特性",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "如何在HTML页面中添加CSS样式代码",
+            "slug": "如何在html页面中添加css样式代码",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "选择器",
+            "slug": "选择器",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "颜色赋值",
+            "slug": "颜色赋值",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "背景图片",
+            "slug": "背景图片",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "文本和字体相关样式",
+            "slug": "文本和字体相关样式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "元素的显示方式display",
+            "slug": "元素的显示方式display",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "盒子模型",
+            "slug": "盒子模型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "元素的定位方式",
+            "slug": "元素的定位方式",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "JavaScript",
+        "slug": "javascript",
+        "children": [
+          {
+            "level": 3,
+            "title": "如何在HTML页面中添加JS语言",
+            "slug": "如何在html页面中添加js语言",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "变量",
+            "slug": "变量",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "数据类型",
+            "slug": "数据类型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "运算符",
+            "slug": "运算符",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "各种语句",
+            "slug": "各种语句",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "方法",
+            "slug": "方法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "JavaScript对象分类",
+            "slug": "javascript对象分类",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "JQuery",
+        "slug": "jquery",
+        "children": [
+          {
+            "level": 3,
+            "title": "什么是JQuery",
+            "slug": "什么是jquery",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "选择器",
+            "slug": "选择器-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "函数",
+            "slug": "函数",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "AJAX：完成异步数据交互",
+        "slug": "ajax-完成异步数据交互",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Vue CLI",
+        "slug": "vue-cli",
+        "children": [
+          {
+            "level": 3,
+            "title": "关于VUE",
+            "slug": "关于vue",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "工程结构",
+            "slug": "工程结构",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/Web&HTTP/notes/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2797,16 +2797,3 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}

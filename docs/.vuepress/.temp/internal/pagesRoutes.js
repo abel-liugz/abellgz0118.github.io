@@ -1,7 +1,5 @@
 export const pagesRoutes = [
   ["v-8daa1a0e","/",{"title":"Java全栈知识体系"},["/index.html","/README.md"]],
-  ["v-99bfd332","/Web&HTTP/notes/HTTP.html",{"title":"HTTP"},["/Web&HTTP/notes/HTTP","/Web&HTTP/notes/HTTP.md"]],
-  ["v-7b7cd6bc","/Web&HTTP/notes/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80.html",{"title":"前端基础"},["/Web&HTTP/notes/前端基础.html","/Web&HTTP/notes/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80","/Web&HTTP/notes/前端基础.md","/Web&HTTP/notes/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80.md"]],
   ["v-c7eb07e6","/Java%E5%9F%BA%E7%A1%80/notes/IO%E6%B5%81.html",{"title":"IO流"},["/Java基础/notes/IO流.html","/Java%E5%9F%BA%E7%A1%80/notes/IO%E6%B5%81","/Java基础/notes/IO流.md","/Java%E5%9F%BA%E7%A1%80/notes/IO%E6%B5%81.md"]],
   ["v-2042f33e","/Java%E5%9F%BA%E7%A1%80/notes/String.html",{"title":"String"},["/Java基础/notes/String.html","/Java%E5%9F%BA%E7%A1%80/notes/String","/Java基础/notes/String.md","/Java%E5%9F%BA%E7%A1%80/notes/String.md"]],
   ["v-92998d3e","/Java%E5%9F%BA%E7%A1%80/notes/%E5%8F%8D%E5%B0%84%E6%9C%BA%E5%88%B6.html",{"title":"反射机制"},["/Java基础/notes/反射机制.html","/Java%E5%9F%BA%E7%A1%80/notes/%E5%8F%8D%E5%B0%84%E6%9C%BA%E5%88%B6","/Java基础/notes/反射机制.md","/Java%E5%9F%BA%E7%A1%80/notes/%E5%8F%8D%E5%B0%84%E6%9C%BA%E5%88%B6.md"]],
@@ -17,6 +15,8 @@ export const pagesRoutes = [
   ["v-8eeedb16","/SSM/notes/SpringMVC.html",{"title":"SpringMVC"},["/SSM/notes/SpringMVC","/SSM/notes/SpringMVC.md"]],
   ["v-e366f3ba","/SSM/notes/SpringSecurity.html",{"title":"SpringSecurity"},["/SSM/notes/SpringSecurity","/SSM/notes/SpringSecurity.md"]],
   ["v-2366f3ad","/SSM/notes/%E5%9F%BA%E4%BA%8EMyBatis%E7%9A%84%E5%88%86%E9%A1%B5%E6%9F%A5%E8%AF%A2.html",{"title":"基于MyBatis的分页查询"},["/SSM/notes/基于MyBatis的分页查询.html","/SSM/notes/%E5%9F%BA%E4%BA%8EMyBatis%E7%9A%84%E5%88%86%E9%A1%B5%E6%9F%A5%E8%AF%A2","/SSM/notes/基于MyBatis的分页查询.md","/SSM/notes/%E5%9F%BA%E4%BA%8EMyBatis%E7%9A%84%E5%88%86%E9%A1%B5%E6%9F%A5%E8%AF%A2.md"]],
+  ["v-99bfd332","/Web&HTTP/notes/HTTP.html",{"title":"HTTP"},["/Web&HTTP/notes/HTTP","/Web&HTTP/notes/HTTP.md"]],
+  ["v-7b7cd6bc","/Web&HTTP/notes/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80.html",{"title":"前端基础"},["/Web&HTTP/notes/前端基础.html","/Web&HTTP/notes/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80","/Web&HTTP/notes/前端基础.md","/Web&HTTP/notes/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80.md"]],
   ["v-b05e1a12","/%E5%85%B6%E4%BB%96/notes/JVM.html",{"title":"JVM相关知识"},["/其他/notes/JVM.html","/%E5%85%B6%E4%BB%96/notes/JVM","/其他/notes/JVM.md","/%E5%85%B6%E4%BB%96/notes/JVM.md"]],
   ["v-70056f4c","/%E5%85%B6%E4%BB%96/notes/docker.html",{"title":"Docker"},["/其他/notes/docker.html","/%E5%85%B6%E4%BB%96/notes/docker","/其他/notes/docker.md","/%E5%85%B6%E4%BB%96/notes/docker.md"]],
   ["v-dcf0e2b8","/%E5%85%B6%E4%BB%96/notes/linux.html",{"title":"Linux常用命令"},["/其他/notes/linux.html","/%E5%85%B6%E4%BB%96/notes/linux","/其他/notes/linux.md","/%E5%85%B6%E4%BB%96/notes/linux.md"]],
