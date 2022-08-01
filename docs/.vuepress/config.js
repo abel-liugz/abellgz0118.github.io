@@ -4,7 +4,7 @@ const {searchPlugin} = require('@vuepress/plugin-search')
 module.exports = {
     title: 'Abel\'s Web',
     description: 'My tech blog',
-    base:'/myweb/',
+    // base:'/myweb/',
     head: [
         ['link', {rel: 'icon', href: '/images/JAVA.png'}],
         ['link', {rel: 'stylesheet', href: '/css/style.css'}],
